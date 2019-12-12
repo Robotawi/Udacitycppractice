@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/incrementsum.dir/multiple-files-project/main.cpp.o CMakeFiles/incrementsum.dir/multiple-files-project/addone.cpp.o CMakeFiles/incrementsum.dir/multiple-files-project/incrementandsum.cpp.o  -o incrementsum 

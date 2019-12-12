@@ -1,0 +1,5 @@
+/home/zozo/CLionProjects/Udacitycppractice/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/zozo/CLionProjects/Udacitycppractice/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/zozo/CLionProjects/Udacitycppractice/cmake-build-debug/CMakeFiles/carmultfiles.dir
+/home/zozo/CLionProjects/Udacitycppractice/cmake-build-debug/CMakeFiles/incrementsum.dir
+/home/zozo/CLionProjects/Udacitycppractice/cmake-build-debug/CMakeFiles/unorderedmap.dir

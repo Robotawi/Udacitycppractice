@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/zozo/CLionProjects/Udacitycppractice/multiple-files-project/addone.cpp
+vector
+-
+
+/home/zozo/CLionProjects/Udacitycppractice/multiple-files-project/addone.h
+vector
+-
+
+/home/zozo/CLionProjects/Udacitycppractice/multiple-files-project/incrementandsum.cpp
+addone.h
+/home/zozo/CLionProjects/Udacitycppractice/multiple-files-project/addone.h
+vector
+-
+iostream
+-
+
+/home/zozo/CLionProjects/Udacitycppractice/multiple-files-project/incrementandsum.h
+vector
+-
+
+/home/zozo/CLionProjects/Udacitycppractice/multiple-files-project/main.cpp
+iostream
+-
+vector
+-
+addone.h
+/home/zozo/CLionProjects/Udacitycppractice/multiple-files-project/addone.h
+incrementandsum.h
+/home/zozo/CLionProjects/Udacitycppractice/multiple-files-project/incrementandsum.h
+
