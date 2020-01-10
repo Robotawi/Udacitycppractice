@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/zozo/CLionProjects/Udacitycppractice/make-classes-files/car.cpp" "/home/zozo/CLionProjects/Udacitycppractice/cmake-build-debug/CMakeFiles/carmultfiles.dir/make-classes-files/car.cpp.o"
-  "/home/zozo/CLionProjects/Udacitycppractice/make-classes-files/carmain.cpp" "/home/zozo/CLionProjects/Udacitycppractice/cmake-build-debug/CMakeFiles/carmultfiles.dir/make-classes-files/carmain.cpp.o"
+  "/home/zozo/CLionProjects/Udacitycppractice/course1-make-classes-files/car.cpp" "/home/zozo/CLionProjects/Udacitycppractice/cmake-build-debug/CMakeFiles/carmultfiles.dir/course1-make-classes-files/car.cpp.o"
+  "/home/zozo/CLionProjects/Udacitycppractice/course1-make-classes-files/carmain.cpp" "/home/zozo/CLionProjects/Udacitycppractice/cmake-build-debug/CMakeFiles/carmultfiles.dir/course1-make-classes-files/carmain.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

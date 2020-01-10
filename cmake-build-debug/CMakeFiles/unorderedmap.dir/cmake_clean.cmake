@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/unorderedmap.dir/unordere-map/unordere-map-try.cpp.o"
+  "CMakeFiles/unorderedmap.dir/course1-unordere-map/unordere-map-try.cpp.o"
   "unorderedmap"
   "unorderedmap.pdb"
 )

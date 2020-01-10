@@ -57,27 +57,27 @@ include CMakeFiles/unorderedmap.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/unorderedmap.dir/flags.make
 
-CMakeFiles/unorderedmap.dir/unordere-map/unordere-map-try.cpp.o: CMakeFiles/unorderedmap.dir/flags.make
-CMakeFiles/unorderedmap.dir/unordere-map/unordere-map-try.cpp.o: ../unordere-map/unordere-map-try.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zozo/CLionProjects/Udacitycppractice/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/unorderedmap.dir/unordere-map/unordere-map-try.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/unorderedmap.dir/unordere-map/unordere-map-try.cpp.o -c /home/zozo/CLionProjects/Udacitycppractice/unordere-map/unordere-map-try.cpp
+CMakeFiles/unorderedmap.dir/course1-unordere-map/unordere-map-try.cpp.o: CMakeFiles/unorderedmap.dir/flags.make
+CMakeFiles/unorderedmap.dir/course1-unordere-map/unordere-map-try.cpp.o: ../course1-unordere-map/unordere-map-try.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zozo/CLionProjects/Udacitycppractice/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/unorderedmap.dir/course1-unordere-map/unordere-map-try.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/unorderedmap.dir/course1-unordere-map/unordere-map-try.cpp.o -c /home/zozo/CLionProjects/Udacitycppractice/course1-unordere-map/unordere-map-try.cpp
 
-CMakeFiles/unorderedmap.dir/unordere-map/unordere-map-try.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/unorderedmap.dir/unordere-map/unordere-map-try.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zozo/CLionProjects/Udacitycppractice/unordere-map/unordere-map-try.cpp > CMakeFiles/unorderedmap.dir/unordere-map/unordere-map-try.cpp.i
+CMakeFiles/unorderedmap.dir/course1-unordere-map/unordere-map-try.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/unorderedmap.dir/course1-unordere-map/unordere-map-try.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zozo/CLionProjects/Udacitycppractice/course1-unordere-map/unordere-map-try.cpp > CMakeFiles/unorderedmap.dir/course1-unordere-map/unordere-map-try.cpp.i
 
-CMakeFiles/unorderedmap.dir/unordere-map/unordere-map-try.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/unorderedmap.dir/unordere-map/unordere-map-try.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zozo/CLionProjects/Udacitycppractice/unordere-map/unordere-map-try.cpp -o CMakeFiles/unorderedmap.dir/unordere-map/unordere-map-try.cpp.s
+CMakeFiles/unorderedmap.dir/course1-unordere-map/unordere-map-try.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/unorderedmap.dir/course1-unordere-map/unordere-map-try.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zozo/CLionProjects/Udacitycppractice/course1-unordere-map/unordere-map-try.cpp -o CMakeFiles/unorderedmap.dir/course1-unordere-map/unordere-map-try.cpp.s
 
 # Object files for target unorderedmap
 unorderedmap_OBJECTS = \
-"CMakeFiles/unorderedmap.dir/unordere-map/unordere-map-try.cpp.o"
+"CMakeFiles/unorderedmap.dir/course1-unordere-map/unordere-map-try.cpp.o"
 
 # External object files for target unorderedmap
 unorderedmap_EXTERNAL_OBJECTS =
 
-unorderedmap: CMakeFiles/unorderedmap.dir/unordere-map/unordere-map-try.cpp.o
+unorderedmap: CMakeFiles/unorderedmap.dir/course1-unordere-map/unordere-map-try.cpp.o
 unorderedmap: CMakeFiles/unorderedmap.dir/build.make
 unorderedmap: CMakeFiles/unorderedmap.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/zozo/CLionProjects/Udacitycppractice/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable unorderedmap"

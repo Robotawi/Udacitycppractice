@@ -9,6 +9,8 @@ public:
 
     Car();
     Car(int num, string col, float dist);
+    Car(int num);
+
     void printCarData();
     void incrementDistance(float speedplus);
 };

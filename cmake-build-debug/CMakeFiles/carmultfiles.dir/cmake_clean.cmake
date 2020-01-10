@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/carmultfiles.dir/make-classes-files/car.cpp.o"
-  "CMakeFiles/carmultfiles.dir/make-classes-files/carmain.cpp.o"
+  "CMakeFiles/carmultfiles.dir/course1-make-classes-files/car.cpp.o"
+  "CMakeFiles/carmultfiles.dir/course1-make-classes-files/carmain.cpp.o"
   "carmultfiles"
   "carmultfiles.pdb"
 )

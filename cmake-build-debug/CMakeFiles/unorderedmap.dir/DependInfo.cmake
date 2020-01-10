@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/zozo/CLionProjects/Udacitycppractice/unordere-map/unordere-map-try.cpp" "/home/zozo/CLionProjects/Udacitycppractice/cmake-build-debug/CMakeFiles/unorderedmap.dir/unordere-map/unordere-map-try.cpp.o"
+  "/home/zozo/CLionProjects/Udacitycppractice/course1-unordere-map/unordere-map-try.cpp" "/home/zozo/CLionProjects/Udacitycppractice/cmake-build-debug/CMakeFiles/unorderedmap.dir/course1-unordere-map/unordere-map-try.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

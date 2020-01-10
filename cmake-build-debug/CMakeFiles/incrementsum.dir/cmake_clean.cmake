@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/incrementsum.dir/multiple-files-project/addone.cpp.o"
-  "CMakeFiles/incrementsum.dir/multiple-files-project/incrementandsum.cpp.o"
-  "CMakeFiles/incrementsum.dir/multiple-files-project/main.cpp.o"
+  "CMakeFiles/incrementsum.dir/course1-multiple-files-project/addone.cpp.o"
+  "CMakeFiles/incrementsum.dir/course1-multiple-files-project/incrementandsum.cpp.o"
+  "CMakeFiles/incrementsum.dir/course1-multiple-files-project/main.cpp.o"
   "incrementsum"
   "incrementsum.pdb"
 )

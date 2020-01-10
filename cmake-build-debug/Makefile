@@ -149,167 +149,167 @@ unorderedmap/fast:
 	$(MAKE) -f CMakeFiles/unorderedmap.dir/build.make CMakeFiles/unorderedmap.dir/build
 .PHONY : unorderedmap/fast
 
-make-classes-files/car.o: make-classes-files/car.cpp.o
+course1-make-classes-files/car.o: course1-make-classes-files/car.cpp.o
 
-.PHONY : make-classes-files/car.o
-
-# target to build an object file
-make-classes-files/car.cpp.o:
-	$(MAKE) -f CMakeFiles/carmultfiles.dir/build.make CMakeFiles/carmultfiles.dir/make-classes-files/car.cpp.o
-.PHONY : make-classes-files/car.cpp.o
-
-make-classes-files/car.i: make-classes-files/car.cpp.i
-
-.PHONY : make-classes-files/car.i
-
-# target to preprocess a source file
-make-classes-files/car.cpp.i:
-	$(MAKE) -f CMakeFiles/carmultfiles.dir/build.make CMakeFiles/carmultfiles.dir/make-classes-files/car.cpp.i
-.PHONY : make-classes-files/car.cpp.i
-
-make-classes-files/car.s: make-classes-files/car.cpp.s
-
-.PHONY : make-classes-files/car.s
-
-# target to generate assembly for a file
-make-classes-files/car.cpp.s:
-	$(MAKE) -f CMakeFiles/carmultfiles.dir/build.make CMakeFiles/carmultfiles.dir/make-classes-files/car.cpp.s
-.PHONY : make-classes-files/car.cpp.s
-
-make-classes-files/carmain.o: make-classes-files/carmain.cpp.o
-
-.PHONY : make-classes-files/carmain.o
+.PHONY : course1-make-classes-files/car.o
 
 # target to build an object file
-make-classes-files/carmain.cpp.o:
-	$(MAKE) -f CMakeFiles/carmultfiles.dir/build.make CMakeFiles/carmultfiles.dir/make-classes-files/carmain.cpp.o
-.PHONY : make-classes-files/carmain.cpp.o
+course1-make-classes-files/car.cpp.o:
+	$(MAKE) -f CMakeFiles/carmultfiles.dir/build.make CMakeFiles/carmultfiles.dir/course1-make-classes-files/car.cpp.o
+.PHONY : course1-make-classes-files/car.cpp.o
 
-make-classes-files/carmain.i: make-classes-files/carmain.cpp.i
+course1-make-classes-files/car.i: course1-make-classes-files/car.cpp.i
 
-.PHONY : make-classes-files/carmain.i
+.PHONY : course1-make-classes-files/car.i
 
 # target to preprocess a source file
-make-classes-files/carmain.cpp.i:
-	$(MAKE) -f CMakeFiles/carmultfiles.dir/build.make CMakeFiles/carmultfiles.dir/make-classes-files/carmain.cpp.i
-.PHONY : make-classes-files/carmain.cpp.i
+course1-make-classes-files/car.cpp.i:
+	$(MAKE) -f CMakeFiles/carmultfiles.dir/build.make CMakeFiles/carmultfiles.dir/course1-make-classes-files/car.cpp.i
+.PHONY : course1-make-classes-files/car.cpp.i
 
-make-classes-files/carmain.s: make-classes-files/carmain.cpp.s
+course1-make-classes-files/car.s: course1-make-classes-files/car.cpp.s
 
-.PHONY : make-classes-files/carmain.s
+.PHONY : course1-make-classes-files/car.s
 
 # target to generate assembly for a file
-make-classes-files/carmain.cpp.s:
-	$(MAKE) -f CMakeFiles/carmultfiles.dir/build.make CMakeFiles/carmultfiles.dir/make-classes-files/carmain.cpp.s
-.PHONY : make-classes-files/carmain.cpp.s
+course1-make-classes-files/car.cpp.s:
+	$(MAKE) -f CMakeFiles/carmultfiles.dir/build.make CMakeFiles/carmultfiles.dir/course1-make-classes-files/car.cpp.s
+.PHONY : course1-make-classes-files/car.cpp.s
 
-multiple-files-project/addone.o: multiple-files-project/addone.cpp.o
+course1-make-classes-files/carmain.o: course1-make-classes-files/carmain.cpp.o
 
-.PHONY : multiple-files-project/addone.o
+.PHONY : course1-make-classes-files/carmain.o
 
 # target to build an object file
-multiple-files-project/addone.cpp.o:
-	$(MAKE) -f CMakeFiles/incrementsum.dir/build.make CMakeFiles/incrementsum.dir/multiple-files-project/addone.cpp.o
-.PHONY : multiple-files-project/addone.cpp.o
+course1-make-classes-files/carmain.cpp.o:
+	$(MAKE) -f CMakeFiles/carmultfiles.dir/build.make CMakeFiles/carmultfiles.dir/course1-make-classes-files/carmain.cpp.o
+.PHONY : course1-make-classes-files/carmain.cpp.o
 
-multiple-files-project/addone.i: multiple-files-project/addone.cpp.i
+course1-make-classes-files/carmain.i: course1-make-classes-files/carmain.cpp.i
 
-.PHONY : multiple-files-project/addone.i
+.PHONY : course1-make-classes-files/carmain.i
 
 # target to preprocess a source file
-multiple-files-project/addone.cpp.i:
-	$(MAKE) -f CMakeFiles/incrementsum.dir/build.make CMakeFiles/incrementsum.dir/multiple-files-project/addone.cpp.i
-.PHONY : multiple-files-project/addone.cpp.i
+course1-make-classes-files/carmain.cpp.i:
+	$(MAKE) -f CMakeFiles/carmultfiles.dir/build.make CMakeFiles/carmultfiles.dir/course1-make-classes-files/carmain.cpp.i
+.PHONY : course1-make-classes-files/carmain.cpp.i
 
-multiple-files-project/addone.s: multiple-files-project/addone.cpp.s
+course1-make-classes-files/carmain.s: course1-make-classes-files/carmain.cpp.s
 
-.PHONY : multiple-files-project/addone.s
+.PHONY : course1-make-classes-files/carmain.s
 
 # target to generate assembly for a file
-multiple-files-project/addone.cpp.s:
-	$(MAKE) -f CMakeFiles/incrementsum.dir/build.make CMakeFiles/incrementsum.dir/multiple-files-project/addone.cpp.s
-.PHONY : multiple-files-project/addone.cpp.s
+course1-make-classes-files/carmain.cpp.s:
+	$(MAKE) -f CMakeFiles/carmultfiles.dir/build.make CMakeFiles/carmultfiles.dir/course1-make-classes-files/carmain.cpp.s
+.PHONY : course1-make-classes-files/carmain.cpp.s
 
-multiple-files-project/incrementandsum.o: multiple-files-project/incrementandsum.cpp.o
+course1-multiple-files-project/addone.o: course1-multiple-files-project/addone.cpp.o
 
-.PHONY : multiple-files-project/incrementandsum.o
+.PHONY : course1-multiple-files-project/addone.o
 
 # target to build an object file
-multiple-files-project/incrementandsum.cpp.o:
-	$(MAKE) -f CMakeFiles/incrementsum.dir/build.make CMakeFiles/incrementsum.dir/multiple-files-project/incrementandsum.cpp.o
-.PHONY : multiple-files-project/incrementandsum.cpp.o
+course1-multiple-files-project/addone.cpp.o:
+	$(MAKE) -f CMakeFiles/incrementsum.dir/build.make CMakeFiles/incrementsum.dir/course1-multiple-files-project/addone.cpp.o
+.PHONY : course1-multiple-files-project/addone.cpp.o
 
-multiple-files-project/incrementandsum.i: multiple-files-project/incrementandsum.cpp.i
+course1-multiple-files-project/addone.i: course1-multiple-files-project/addone.cpp.i
 
-.PHONY : multiple-files-project/incrementandsum.i
+.PHONY : course1-multiple-files-project/addone.i
 
 # target to preprocess a source file
-multiple-files-project/incrementandsum.cpp.i:
-	$(MAKE) -f CMakeFiles/incrementsum.dir/build.make CMakeFiles/incrementsum.dir/multiple-files-project/incrementandsum.cpp.i
-.PHONY : multiple-files-project/incrementandsum.cpp.i
+course1-multiple-files-project/addone.cpp.i:
+	$(MAKE) -f CMakeFiles/incrementsum.dir/build.make CMakeFiles/incrementsum.dir/course1-multiple-files-project/addone.cpp.i
+.PHONY : course1-multiple-files-project/addone.cpp.i
 
-multiple-files-project/incrementandsum.s: multiple-files-project/incrementandsum.cpp.s
+course1-multiple-files-project/addone.s: course1-multiple-files-project/addone.cpp.s
 
-.PHONY : multiple-files-project/incrementandsum.s
+.PHONY : course1-multiple-files-project/addone.s
 
 # target to generate assembly for a file
-multiple-files-project/incrementandsum.cpp.s:
-	$(MAKE) -f CMakeFiles/incrementsum.dir/build.make CMakeFiles/incrementsum.dir/multiple-files-project/incrementandsum.cpp.s
-.PHONY : multiple-files-project/incrementandsum.cpp.s
+course1-multiple-files-project/addone.cpp.s:
+	$(MAKE) -f CMakeFiles/incrementsum.dir/build.make CMakeFiles/incrementsum.dir/course1-multiple-files-project/addone.cpp.s
+.PHONY : course1-multiple-files-project/addone.cpp.s
 
-multiple-files-project/main.o: multiple-files-project/main.cpp.o
+course1-multiple-files-project/incrementandsum.o: course1-multiple-files-project/incrementandsum.cpp.o
 
-.PHONY : multiple-files-project/main.o
+.PHONY : course1-multiple-files-project/incrementandsum.o
 
 # target to build an object file
-multiple-files-project/main.cpp.o:
-	$(MAKE) -f CMakeFiles/incrementsum.dir/build.make CMakeFiles/incrementsum.dir/multiple-files-project/main.cpp.o
-.PHONY : multiple-files-project/main.cpp.o
+course1-multiple-files-project/incrementandsum.cpp.o:
+	$(MAKE) -f CMakeFiles/incrementsum.dir/build.make CMakeFiles/incrementsum.dir/course1-multiple-files-project/incrementandsum.cpp.o
+.PHONY : course1-multiple-files-project/incrementandsum.cpp.o
 
-multiple-files-project/main.i: multiple-files-project/main.cpp.i
+course1-multiple-files-project/incrementandsum.i: course1-multiple-files-project/incrementandsum.cpp.i
 
-.PHONY : multiple-files-project/main.i
+.PHONY : course1-multiple-files-project/incrementandsum.i
 
 # target to preprocess a source file
-multiple-files-project/main.cpp.i:
-	$(MAKE) -f CMakeFiles/incrementsum.dir/build.make CMakeFiles/incrementsum.dir/multiple-files-project/main.cpp.i
-.PHONY : multiple-files-project/main.cpp.i
+course1-multiple-files-project/incrementandsum.cpp.i:
+	$(MAKE) -f CMakeFiles/incrementsum.dir/build.make CMakeFiles/incrementsum.dir/course1-multiple-files-project/incrementandsum.cpp.i
+.PHONY : course1-multiple-files-project/incrementandsum.cpp.i
 
-multiple-files-project/main.s: multiple-files-project/main.cpp.s
+course1-multiple-files-project/incrementandsum.s: course1-multiple-files-project/incrementandsum.cpp.s
 
-.PHONY : multiple-files-project/main.s
+.PHONY : course1-multiple-files-project/incrementandsum.s
 
 # target to generate assembly for a file
-multiple-files-project/main.cpp.s:
-	$(MAKE) -f CMakeFiles/incrementsum.dir/build.make CMakeFiles/incrementsum.dir/multiple-files-project/main.cpp.s
-.PHONY : multiple-files-project/main.cpp.s
+course1-multiple-files-project/incrementandsum.cpp.s:
+	$(MAKE) -f CMakeFiles/incrementsum.dir/build.make CMakeFiles/incrementsum.dir/course1-multiple-files-project/incrementandsum.cpp.s
+.PHONY : course1-multiple-files-project/incrementandsum.cpp.s
 
-unordere-map/unordere-map-try.o: unordere-map/unordere-map-try.cpp.o
+course1-multiple-files-project/main.o: course1-multiple-files-project/main.cpp.o
 
-.PHONY : unordere-map/unordere-map-try.o
+.PHONY : course1-multiple-files-project/main.o
 
 # target to build an object file
-unordere-map/unordere-map-try.cpp.o:
-	$(MAKE) -f CMakeFiles/unorderedmap.dir/build.make CMakeFiles/unorderedmap.dir/unordere-map/unordere-map-try.cpp.o
-.PHONY : unordere-map/unordere-map-try.cpp.o
+course1-multiple-files-project/main.cpp.o:
+	$(MAKE) -f CMakeFiles/incrementsum.dir/build.make CMakeFiles/incrementsum.dir/course1-multiple-files-project/main.cpp.o
+.PHONY : course1-multiple-files-project/main.cpp.o
 
-unordere-map/unordere-map-try.i: unordere-map/unordere-map-try.cpp.i
+course1-multiple-files-project/main.i: course1-multiple-files-project/main.cpp.i
 
-.PHONY : unordere-map/unordere-map-try.i
+.PHONY : course1-multiple-files-project/main.i
 
 # target to preprocess a source file
-unordere-map/unordere-map-try.cpp.i:
-	$(MAKE) -f CMakeFiles/unorderedmap.dir/build.make CMakeFiles/unorderedmap.dir/unordere-map/unordere-map-try.cpp.i
-.PHONY : unordere-map/unordere-map-try.cpp.i
+course1-multiple-files-project/main.cpp.i:
+	$(MAKE) -f CMakeFiles/incrementsum.dir/build.make CMakeFiles/incrementsum.dir/course1-multiple-files-project/main.cpp.i
+.PHONY : course1-multiple-files-project/main.cpp.i
 
-unordere-map/unordere-map-try.s: unordere-map/unordere-map-try.cpp.s
+course1-multiple-files-project/main.s: course1-multiple-files-project/main.cpp.s
 
-.PHONY : unordere-map/unordere-map-try.s
+.PHONY : course1-multiple-files-project/main.s
 
 # target to generate assembly for a file
-unordere-map/unordere-map-try.cpp.s:
-	$(MAKE) -f CMakeFiles/unorderedmap.dir/build.make CMakeFiles/unorderedmap.dir/unordere-map/unordere-map-try.cpp.s
-.PHONY : unordere-map/unordere-map-try.cpp.s
+course1-multiple-files-project/main.cpp.s:
+	$(MAKE) -f CMakeFiles/incrementsum.dir/build.make CMakeFiles/incrementsum.dir/course1-multiple-files-project/main.cpp.s
+.PHONY : course1-multiple-files-project/main.cpp.s
+
+course1-unordere-map/unordere-map-try.o: course1-unordere-map/unordere-map-try.cpp.o
+
+.PHONY : course1-unordere-map/unordere-map-try.o
+
+# target to build an object file
+course1-unordere-map/unordere-map-try.cpp.o:
+	$(MAKE) -f CMakeFiles/unorderedmap.dir/build.make CMakeFiles/unorderedmap.dir/course1-unordere-map/unordere-map-try.cpp.o
+.PHONY : course1-unordere-map/unordere-map-try.cpp.o
+
+course1-unordere-map/unordere-map-try.i: course1-unordere-map/unordere-map-try.cpp.i
+
+.PHONY : course1-unordere-map/unordere-map-try.i
+
+# target to preprocess a source file
+course1-unordere-map/unordere-map-try.cpp.i:
+	$(MAKE) -f CMakeFiles/unorderedmap.dir/build.make CMakeFiles/unorderedmap.dir/course1-unordere-map/unordere-map-try.cpp.i
+.PHONY : course1-unordere-map/unordere-map-try.cpp.i
+
+course1-unordere-map/unordere-map-try.s: course1-unordere-map/unordere-map-try.cpp.s
+
+.PHONY : course1-unordere-map/unordere-map-try.s
+
+# target to generate assembly for a file
+course1-unordere-map/unordere-map-try.cpp.s:
+	$(MAKE) -f CMakeFiles/unorderedmap.dir/build.make CMakeFiles/unorderedmap.dir/course1-unordere-map/unordere-map-try.cpp.s
+.PHONY : course1-unordere-map/unordere-map-try.cpp.s
 
 # Help Target
 help:
@@ -322,24 +322,24 @@ help:
 	@echo "... carmultfiles"
 	@echo "... incrementsum"
 	@echo "... unorderedmap"
-	@echo "... make-classes-files/car.o"
-	@echo "... make-classes-files/car.i"
-	@echo "... make-classes-files/car.s"
-	@echo "... make-classes-files/carmain.o"
-	@echo "... make-classes-files/carmain.i"
-	@echo "... make-classes-files/carmain.s"
-	@echo "... multiple-files-project/addone.o"
-	@echo "... multiple-files-project/addone.i"
-	@echo "... multiple-files-project/addone.s"
-	@echo "... multiple-files-project/incrementandsum.o"
-	@echo "... multiple-files-project/incrementandsum.i"
-	@echo "... multiple-files-project/incrementandsum.s"
-	@echo "... multiple-files-project/main.o"
-	@echo "... multiple-files-project/main.i"
-	@echo "... multiple-files-project/main.s"
-	@echo "... unordere-map/unordere-map-try.o"
-	@echo "... unordere-map/unordere-map-try.i"
-	@echo "... unordere-map/unordere-map-try.s"
+	@echo "... course1-make-classes-files/car.o"
+	@echo "... course1-make-classes-files/car.i"
+	@echo "... course1-make-classes-files/car.s"
+	@echo "... course1-make-classes-files/carmain.o"
+	@echo "... course1-make-classes-files/carmain.i"
+	@echo "... course1-make-classes-files/carmain.s"
+	@echo "... course1-multiple-files-project/addone.o"
+	@echo "... course1-multiple-files-project/addone.i"
+	@echo "... course1-multiple-files-project/addone.s"
+	@echo "... course1-multiple-files-project/incrementandsum.o"
+	@echo "... course1-multiple-files-project/incrementandsum.i"
+	@echo "... course1-multiple-files-project/incrementandsum.s"
+	@echo "... course1-multiple-files-project/main.o"
+	@echo "... course1-multiple-files-project/main.i"
+	@echo "... course1-multiple-files-project/main.s"
+	@echo "... course1-unordere-map/unordere-map-try.o"
+	@echo "... course1-unordere-map/unordere-map-try.i"
+	@echo "... course1-unordere-map/unordere-map-try.s"
 .PHONY : help
 
 

@@ -57,57 +57,57 @@ include CMakeFiles/incrementsum.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/incrementsum.dir/flags.make
 
-CMakeFiles/incrementsum.dir/multiple-files-project/main.cpp.o: CMakeFiles/incrementsum.dir/flags.make
-CMakeFiles/incrementsum.dir/multiple-files-project/main.cpp.o: ../multiple-files-project/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zozo/CLionProjects/Udacitycppractice/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/incrementsum.dir/multiple-files-project/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/incrementsum.dir/multiple-files-project/main.cpp.o -c /home/zozo/CLionProjects/Udacitycppractice/multiple-files-project/main.cpp
+CMakeFiles/incrementsum.dir/course1-multiple-files-project/main.cpp.o: CMakeFiles/incrementsum.dir/flags.make
+CMakeFiles/incrementsum.dir/course1-multiple-files-project/main.cpp.o: ../course1-multiple-files-project/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zozo/CLionProjects/Udacitycppractice/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/incrementsum.dir/course1-multiple-files-project/main.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/incrementsum.dir/course1-multiple-files-project/main.cpp.o -c /home/zozo/CLionProjects/Udacitycppractice/course1-multiple-files-project/main.cpp
 
-CMakeFiles/incrementsum.dir/multiple-files-project/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/incrementsum.dir/multiple-files-project/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zozo/CLionProjects/Udacitycppractice/multiple-files-project/main.cpp > CMakeFiles/incrementsum.dir/multiple-files-project/main.cpp.i
+CMakeFiles/incrementsum.dir/course1-multiple-files-project/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/incrementsum.dir/course1-multiple-files-project/main.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zozo/CLionProjects/Udacitycppractice/course1-multiple-files-project/main.cpp > CMakeFiles/incrementsum.dir/course1-multiple-files-project/main.cpp.i
 
-CMakeFiles/incrementsum.dir/multiple-files-project/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/incrementsum.dir/multiple-files-project/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zozo/CLionProjects/Udacitycppractice/multiple-files-project/main.cpp -o CMakeFiles/incrementsum.dir/multiple-files-project/main.cpp.s
+CMakeFiles/incrementsum.dir/course1-multiple-files-project/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/incrementsum.dir/course1-multiple-files-project/main.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zozo/CLionProjects/Udacitycppractice/course1-multiple-files-project/main.cpp -o CMakeFiles/incrementsum.dir/course1-multiple-files-project/main.cpp.s
 
-CMakeFiles/incrementsum.dir/multiple-files-project/addone.cpp.o: CMakeFiles/incrementsum.dir/flags.make
-CMakeFiles/incrementsum.dir/multiple-files-project/addone.cpp.o: ../multiple-files-project/addone.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zozo/CLionProjects/Udacitycppractice/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/incrementsum.dir/multiple-files-project/addone.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/incrementsum.dir/multiple-files-project/addone.cpp.o -c /home/zozo/CLionProjects/Udacitycppractice/multiple-files-project/addone.cpp
+CMakeFiles/incrementsum.dir/course1-multiple-files-project/addone.cpp.o: CMakeFiles/incrementsum.dir/flags.make
+CMakeFiles/incrementsum.dir/course1-multiple-files-project/addone.cpp.o: ../course1-multiple-files-project/addone.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zozo/CLionProjects/Udacitycppractice/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/incrementsum.dir/course1-multiple-files-project/addone.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/incrementsum.dir/course1-multiple-files-project/addone.cpp.o -c /home/zozo/CLionProjects/Udacitycppractice/course1-multiple-files-project/addone.cpp
 
-CMakeFiles/incrementsum.dir/multiple-files-project/addone.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/incrementsum.dir/multiple-files-project/addone.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zozo/CLionProjects/Udacitycppractice/multiple-files-project/addone.cpp > CMakeFiles/incrementsum.dir/multiple-files-project/addone.cpp.i
+CMakeFiles/incrementsum.dir/course1-multiple-files-project/addone.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/incrementsum.dir/course1-multiple-files-project/addone.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zozo/CLionProjects/Udacitycppractice/course1-multiple-files-project/addone.cpp > CMakeFiles/incrementsum.dir/course1-multiple-files-project/addone.cpp.i
 
-CMakeFiles/incrementsum.dir/multiple-files-project/addone.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/incrementsum.dir/multiple-files-project/addone.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zozo/CLionProjects/Udacitycppractice/multiple-files-project/addone.cpp -o CMakeFiles/incrementsum.dir/multiple-files-project/addone.cpp.s
+CMakeFiles/incrementsum.dir/course1-multiple-files-project/addone.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/incrementsum.dir/course1-multiple-files-project/addone.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zozo/CLionProjects/Udacitycppractice/course1-multiple-files-project/addone.cpp -o CMakeFiles/incrementsum.dir/course1-multiple-files-project/addone.cpp.s
 
-CMakeFiles/incrementsum.dir/multiple-files-project/incrementandsum.cpp.o: CMakeFiles/incrementsum.dir/flags.make
-CMakeFiles/incrementsum.dir/multiple-files-project/incrementandsum.cpp.o: ../multiple-files-project/incrementandsum.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zozo/CLionProjects/Udacitycppractice/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/incrementsum.dir/multiple-files-project/incrementandsum.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/incrementsum.dir/multiple-files-project/incrementandsum.cpp.o -c /home/zozo/CLionProjects/Udacitycppractice/multiple-files-project/incrementandsum.cpp
+CMakeFiles/incrementsum.dir/course1-multiple-files-project/incrementandsum.cpp.o: CMakeFiles/incrementsum.dir/flags.make
+CMakeFiles/incrementsum.dir/course1-multiple-files-project/incrementandsum.cpp.o: ../course1-multiple-files-project/incrementandsum.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zozo/CLionProjects/Udacitycppractice/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/incrementsum.dir/course1-multiple-files-project/incrementandsum.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/incrementsum.dir/course1-multiple-files-project/incrementandsum.cpp.o -c /home/zozo/CLionProjects/Udacitycppractice/course1-multiple-files-project/incrementandsum.cpp
 
-CMakeFiles/incrementsum.dir/multiple-files-project/incrementandsum.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/incrementsum.dir/multiple-files-project/incrementandsum.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zozo/CLionProjects/Udacitycppractice/multiple-files-project/incrementandsum.cpp > CMakeFiles/incrementsum.dir/multiple-files-project/incrementandsum.cpp.i
+CMakeFiles/incrementsum.dir/course1-multiple-files-project/incrementandsum.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/incrementsum.dir/course1-multiple-files-project/incrementandsum.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zozo/CLionProjects/Udacitycppractice/course1-multiple-files-project/incrementandsum.cpp > CMakeFiles/incrementsum.dir/course1-multiple-files-project/incrementandsum.cpp.i
 
-CMakeFiles/incrementsum.dir/multiple-files-project/incrementandsum.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/incrementsum.dir/multiple-files-project/incrementandsum.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zozo/CLionProjects/Udacitycppractice/multiple-files-project/incrementandsum.cpp -o CMakeFiles/incrementsum.dir/multiple-files-project/incrementandsum.cpp.s
+CMakeFiles/incrementsum.dir/course1-multiple-files-project/incrementandsum.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/incrementsum.dir/course1-multiple-files-project/incrementandsum.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zozo/CLionProjects/Udacitycppractice/course1-multiple-files-project/incrementandsum.cpp -o CMakeFiles/incrementsum.dir/course1-multiple-files-project/incrementandsum.cpp.s
 
 # Object files for target incrementsum
 incrementsum_OBJECTS = \
-"CMakeFiles/incrementsum.dir/multiple-files-project/main.cpp.o" \
-"CMakeFiles/incrementsum.dir/multiple-files-project/addone.cpp.o" \
-"CMakeFiles/incrementsum.dir/multiple-files-project/incrementandsum.cpp.o"
+"CMakeFiles/incrementsum.dir/course1-multiple-files-project/main.cpp.o" \
+"CMakeFiles/incrementsum.dir/course1-multiple-files-project/addone.cpp.o" \
+"CMakeFiles/incrementsum.dir/course1-multiple-files-project/incrementandsum.cpp.o"
 
 # External object files for target incrementsum
 incrementsum_EXTERNAL_OBJECTS =
 
-incrementsum: CMakeFiles/incrementsum.dir/multiple-files-project/main.cpp.o
-incrementsum: CMakeFiles/incrementsum.dir/multiple-files-project/addone.cpp.o
-incrementsum: CMakeFiles/incrementsum.dir/multiple-files-project/incrementandsum.cpp.o
+incrementsum: CMakeFiles/incrementsum.dir/course1-multiple-files-project/main.cpp.o
+incrementsum: CMakeFiles/incrementsum.dir/course1-multiple-files-project/addone.cpp.o
+incrementsum: CMakeFiles/incrementsum.dir/course1-multiple-files-project/incrementandsum.cpp.o
 incrementsum: CMakeFiles/incrementsum.dir/build.make
 incrementsum: CMakeFiles/incrementsum.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/zozo/CLionProjects/Udacitycppractice/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable incrementsum"

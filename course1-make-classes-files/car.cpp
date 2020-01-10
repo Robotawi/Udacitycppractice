@@ -5,7 +5,12 @@ using namespace std;
 
 Car::Car(): number(0), color("no color"), distance(0) {};
 Car::Car(int num, string col, float dist): number(num), color(col), distance(dist) {};
+//partial initialization
+Car::Car(int num) : number(num){
+    color = "no color";
+    distance = 0;
 
+}
 void Car::printCarData() {
     cout<< "Car number " << number << " has color "<< color <<"\n";
 }

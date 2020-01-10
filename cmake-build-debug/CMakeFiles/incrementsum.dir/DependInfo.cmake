@@ -4,9 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/zozo/CLionProjects/Udacitycppractice/multiple-files-project/addone.cpp" "/home/zozo/CLionProjects/Udacitycppractice/cmake-build-debug/CMakeFiles/incrementsum.dir/multiple-files-project/addone.cpp.o"
-  "/home/zozo/CLionProjects/Udacitycppractice/multiple-files-project/incrementandsum.cpp" "/home/zozo/CLionProjects/Udacitycppractice/cmake-build-debug/CMakeFiles/incrementsum.dir/multiple-files-project/incrementandsum.cpp.o"
-  "/home/zozo/CLionProjects/Udacitycppractice/multiple-files-project/main.cpp" "/home/zozo/CLionProjects/Udacitycppractice/cmake-build-debug/CMakeFiles/incrementsum.dir/multiple-files-project/main.cpp.o"
+  "/home/zozo/CLionProjects/Udacitycppractice/course1-multiple-files-project/addone.cpp" "/home/zozo/CLionProjects/Udacitycppractice/cmake-build-debug/CMakeFiles/incrementsum.dir/course1-multiple-files-project/addone.cpp.o"
+  "/home/zozo/CLionProjects/Udacitycppractice/course1-multiple-files-project/incrementandsum.cpp" "/home/zozo/CLionProjects/Udacitycppractice/cmake-build-debug/CMakeFiles/incrementsum.dir/course1-multiple-files-project/incrementandsum.cpp.o"
+  "/home/zozo/CLionProjects/Udacitycppractice/course1-multiple-files-project/main.cpp" "/home/zozo/CLionProjects/Udacitycppractice/cmake-build-debug/CMakeFiles/incrementsum.dir/course1-multiple-files-project/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

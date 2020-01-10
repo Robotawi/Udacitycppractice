@@ -176,31 +176,31 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/zozo/CLionProjects/Udacitycppractice/make-classes-files/car.cpp">
+		<Unit filename="/home/zozo/CLionProjects/Udacitycppractice/course1-make-classes-files/car.cpp">
 			<Option target="carmultfiles"/>
 		</Unit>
-		<Unit filename="/home/zozo/CLionProjects/Udacitycppractice/make-classes-files/car.h">
+		<Unit filename="/home/zozo/CLionProjects/Udacitycppractice/course1-make-classes-files/car.h">
 			<Option target="carmultfiles"/>
 		</Unit>
-		<Unit filename="/home/zozo/CLionProjects/Udacitycppractice/make-classes-files/carmain.cpp">
+		<Unit filename="/home/zozo/CLionProjects/Udacitycppractice/course1-make-classes-files/carmain.cpp">
 			<Option target="carmultfiles"/>
 		</Unit>
-		<Unit filename="/home/zozo/CLionProjects/Udacitycppractice/multiple-files-project/addone.cpp">
+		<Unit filename="/home/zozo/CLionProjects/Udacitycppractice/course1-multiple-files-project/addone.cpp">
 			<Option target="incrementsum"/>
 		</Unit>
-		<Unit filename="/home/zozo/CLionProjects/Udacitycppractice/multiple-files-project/addone.h">
+		<Unit filename="/home/zozo/CLionProjects/Udacitycppractice/course1-multiple-files-project/addone.h">
 			<Option target="incrementsum"/>
 		</Unit>
-		<Unit filename="/home/zozo/CLionProjects/Udacitycppractice/multiple-files-project/incrementandsum.cpp">
+		<Unit filename="/home/zozo/CLionProjects/Udacitycppractice/course1-multiple-files-project/incrementandsum.cpp">
 			<Option target="incrementsum"/>
 		</Unit>
-		<Unit filename="/home/zozo/CLionProjects/Udacitycppractice/multiple-files-project/incrementandsum.h">
+		<Unit filename="/home/zozo/CLionProjects/Udacitycppractice/course1-multiple-files-project/incrementandsum.h">
 			<Option target="incrementsum"/>
 		</Unit>
-		<Unit filename="/home/zozo/CLionProjects/Udacitycppractice/multiple-files-project/main.cpp">
+		<Unit filename="/home/zozo/CLionProjects/Udacitycppractice/course1-multiple-files-project/main.cpp">
 			<Option target="incrementsum"/>
 		</Unit>
-		<Unit filename="/home/zozo/CLionProjects/Udacitycppractice/unordere-map/unordere-map-try.cpp">
+		<Unit filename="/home/zozo/CLionProjects/Udacitycppractice/course1-unordere-map/unordere-map-try.cpp">
 			<Option target="unorderedmap"/>
 		</Unit>
 		<Unit filename="/home/zozo/CLionProjects/Udacitycppractice/CMakeLists.txt">
