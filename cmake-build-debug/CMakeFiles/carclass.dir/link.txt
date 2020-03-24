@@ -1,1 +1,0 @@
-/usr/bin/c++  -g   CMakeFiles/carclass.dir/make-classes-files/onefile.cpp.o  -o carclass 

@@ -44,25 +44,21 @@ RM = /home/zozo/CLion-2019.2.3/clion-2019.2.3/bin/cmake/linux/bin/cmake -E remov
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/zozo/CLionProjects/Udacitycppractice
+CMAKE_SOURCE_DIR = /home/zozo/CLionProjects/CPP_practice
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/zozo/CLionProjects/Udacitycppractice/cmake-build-debug
+CMAKE_BINARY_DIR = /home/zozo/CLionProjects/CPP_practice/cmake-build-debug
 
 #=============================================================================
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/carmultfiles.dir/all
-all: CMakeFiles/incrementsum.dir/all
-all: CMakeFiles/unorderedmap.dir/all
+all: CMakeFiles/trymultilambda.dir/all
 
 .PHONY : all
 
 # The main recursive "clean" target.
-clean: CMakeFiles/carmultfiles.dir/clean
-clean: CMakeFiles/incrementsum.dir/clean
-clean: CMakeFiles/unorderedmap.dir/clean
+clean: CMakeFiles/trymultilambda.dir/clean
 
 .PHONY : clean
 
@@ -72,85 +68,31 @@ preinstall:
 .PHONY : preinstall
 
 #=============================================================================
-# Target rules for target CMakeFiles/carmultfiles.dir
+# Target rules for target CMakeFiles/trymultilambda.dir
 
 # All Build rule for target.
-CMakeFiles/carmultfiles.dir/all:
-	$(MAKE) -f CMakeFiles/carmultfiles.dir/build.make CMakeFiles/carmultfiles.dir/depend
-	$(MAKE) -f CMakeFiles/carmultfiles.dir/build.make CMakeFiles/carmultfiles.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zozo/CLionProjects/Udacitycppractice/cmake-build-debug/CMakeFiles --progress-num=1,2,3 "Built target carmultfiles"
-.PHONY : CMakeFiles/carmultfiles.dir/all
+CMakeFiles/trymultilambda.dir/all:
+	$(MAKE) -f CMakeFiles/trymultilambda.dir/build.make CMakeFiles/trymultilambda.dir/depend
+	$(MAKE) -f CMakeFiles/trymultilambda.dir/build.make CMakeFiles/trymultilambda.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zozo/CLionProjects/CPP_practice/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target trymultilambda"
+.PHONY : CMakeFiles/trymultilambda.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/carmultfiles.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zozo/CLionProjects/Udacitycppractice/cmake-build-debug/CMakeFiles 3
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/carmultfiles.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zozo/CLionProjects/Udacitycppractice/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/carmultfiles.dir/rule
+CMakeFiles/trymultilambda.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zozo/CLionProjects/CPP_practice/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/trymultilambda.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zozo/CLionProjects/CPP_practice/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/trymultilambda.dir/rule
 
 # Convenience name for target.
-carmultfiles: CMakeFiles/carmultfiles.dir/rule
+trymultilambda: CMakeFiles/trymultilambda.dir/rule
 
-.PHONY : carmultfiles
-
-# clean rule for target.
-CMakeFiles/carmultfiles.dir/clean:
-	$(MAKE) -f CMakeFiles/carmultfiles.dir/build.make CMakeFiles/carmultfiles.dir/clean
-.PHONY : CMakeFiles/carmultfiles.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/incrementsum.dir
-
-# All Build rule for target.
-CMakeFiles/incrementsum.dir/all:
-	$(MAKE) -f CMakeFiles/incrementsum.dir/build.make CMakeFiles/incrementsum.dir/depend
-	$(MAKE) -f CMakeFiles/incrementsum.dir/build.make CMakeFiles/incrementsum.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zozo/CLionProjects/Udacitycppractice/cmake-build-debug/CMakeFiles --progress-num=4,5,6,7 "Built target incrementsum"
-.PHONY : CMakeFiles/incrementsum.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/incrementsum.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zozo/CLionProjects/Udacitycppractice/cmake-build-debug/CMakeFiles 4
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/incrementsum.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zozo/CLionProjects/Udacitycppractice/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/incrementsum.dir/rule
-
-# Convenience name for target.
-incrementsum: CMakeFiles/incrementsum.dir/rule
-
-.PHONY : incrementsum
+.PHONY : trymultilambda
 
 # clean rule for target.
-CMakeFiles/incrementsum.dir/clean:
-	$(MAKE) -f CMakeFiles/incrementsum.dir/build.make CMakeFiles/incrementsum.dir/clean
-.PHONY : CMakeFiles/incrementsum.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/unorderedmap.dir
-
-# All Build rule for target.
-CMakeFiles/unorderedmap.dir/all:
-	$(MAKE) -f CMakeFiles/unorderedmap.dir/build.make CMakeFiles/unorderedmap.dir/depend
-	$(MAKE) -f CMakeFiles/unorderedmap.dir/build.make CMakeFiles/unorderedmap.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zozo/CLionProjects/Udacitycppractice/cmake-build-debug/CMakeFiles --progress-num=8,9 "Built target unorderedmap"
-.PHONY : CMakeFiles/unorderedmap.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/unorderedmap.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zozo/CLionProjects/Udacitycppractice/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/unorderedmap.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zozo/CLionProjects/Udacitycppractice/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/unorderedmap.dir/rule
-
-# Convenience name for target.
-unorderedmap: CMakeFiles/unorderedmap.dir/rule
-
-.PHONY : unorderedmap
-
-# clean rule for target.
-CMakeFiles/unorderedmap.dir/clean:
-	$(MAKE) -f CMakeFiles/unorderedmap.dir/build.make CMakeFiles/unorderedmap.dir/clean
-.PHONY : CMakeFiles/unorderedmap.dir/clean
+CMakeFiles/trymultilambda.dir/clean:
+	$(MAKE) -f CMakeFiles/trymultilambda.dir/build.make CMakeFiles/trymultilambda.dir/clean
+.PHONY : CMakeFiles/trymultilambda.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

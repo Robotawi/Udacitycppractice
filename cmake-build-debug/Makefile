@@ -48,10 +48,10 @@ RM = /home/zozo/CLion-2019.2.3/clion-2019.2.3/bin/cmake/linux/bin/cmake -E remov
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/zozo/CLionProjects/Udacitycppractice
+CMAKE_SOURCE_DIR = /home/zozo/CLionProjects/CPP_practice
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/zozo/CLionProjects/Udacitycppractice/cmake-build-debug
+CMAKE_BINARY_DIR = /home/zozo/CLionProjects/CPP_practice/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zozo/CLionProjects/Udacitycppractice/cmake-build-debug/CMakeFiles /home/zozo/CLionProjects/Udacitycppractice/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zozo/CLionProjects/CPP_practice/cmake-build-debug/CMakeFiles /home/zozo/CLionProjects/CPP_practice/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zozo/CLionProjects/Udacitycppractice/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zozo/CLionProjects/CPP_practice/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -111,205 +111,44 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named carmultfiles
+# Target rules for targets named trymultilambda
 
 # Build rule for target.
-carmultfiles: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 carmultfiles
-.PHONY : carmultfiles
+trymultilambda: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 trymultilambda
+.PHONY : trymultilambda
 
 # fast build rule for target.
-carmultfiles/fast:
-	$(MAKE) -f CMakeFiles/carmultfiles.dir/build.make CMakeFiles/carmultfiles.dir/build
-.PHONY : carmultfiles/fast
+trymultilambda/fast:
+	$(MAKE) -f CMakeFiles/trymultilambda.dir/build.make CMakeFiles/trymultilambda.dir/build
+.PHONY : trymultilambda/fast
 
-#=============================================================================
-# Target rules for targets named incrementsum
+course4-threads/1_intro_and_runningthreads/thread_try0_run_multiple-threads-lambda.o: course4-threads/1_intro_and_runningthreads/thread_try0_run_multiple-threads-lambda.cpp.o
 
-# Build rule for target.
-incrementsum: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 incrementsum
-.PHONY : incrementsum
-
-# fast build rule for target.
-incrementsum/fast:
-	$(MAKE) -f CMakeFiles/incrementsum.dir/build.make CMakeFiles/incrementsum.dir/build
-.PHONY : incrementsum/fast
-
-#=============================================================================
-# Target rules for targets named unorderedmap
-
-# Build rule for target.
-unorderedmap: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 unorderedmap
-.PHONY : unorderedmap
-
-# fast build rule for target.
-unorderedmap/fast:
-	$(MAKE) -f CMakeFiles/unorderedmap.dir/build.make CMakeFiles/unorderedmap.dir/build
-.PHONY : unorderedmap/fast
-
-course1-make-classes-files/car.o: course1-make-classes-files/car.cpp.o
-
-.PHONY : course1-make-classes-files/car.o
+.PHONY : course4-threads/1_intro_and_runningthreads/thread_try0_run_multiple-threads-lambda.o
 
 # target to build an object file
-course1-make-classes-files/car.cpp.o:
-	$(MAKE) -f CMakeFiles/carmultfiles.dir/build.make CMakeFiles/carmultfiles.dir/course1-make-classes-files/car.cpp.o
-.PHONY : course1-make-classes-files/car.cpp.o
+course4-threads/1_intro_and_runningthreads/thread_try0_run_multiple-threads-lambda.cpp.o:
+	$(MAKE) -f CMakeFiles/trymultilambda.dir/build.make CMakeFiles/trymultilambda.dir/course4-threads/1_intro_and_runningthreads/thread_try0_run_multiple-threads-lambda.cpp.o
+.PHONY : course4-threads/1_intro_and_runningthreads/thread_try0_run_multiple-threads-lambda.cpp.o
 
-course1-make-classes-files/car.i: course1-make-classes-files/car.cpp.i
+course4-threads/1_intro_and_runningthreads/thread_try0_run_multiple-threads-lambda.i: course4-threads/1_intro_and_runningthreads/thread_try0_run_multiple-threads-lambda.cpp.i
 
-.PHONY : course1-make-classes-files/car.i
-
-# target to preprocess a source file
-course1-make-classes-files/car.cpp.i:
-	$(MAKE) -f CMakeFiles/carmultfiles.dir/build.make CMakeFiles/carmultfiles.dir/course1-make-classes-files/car.cpp.i
-.PHONY : course1-make-classes-files/car.cpp.i
-
-course1-make-classes-files/car.s: course1-make-classes-files/car.cpp.s
-
-.PHONY : course1-make-classes-files/car.s
-
-# target to generate assembly for a file
-course1-make-classes-files/car.cpp.s:
-	$(MAKE) -f CMakeFiles/carmultfiles.dir/build.make CMakeFiles/carmultfiles.dir/course1-make-classes-files/car.cpp.s
-.PHONY : course1-make-classes-files/car.cpp.s
-
-course1-make-classes-files/carmain.o: course1-make-classes-files/carmain.cpp.o
-
-.PHONY : course1-make-classes-files/carmain.o
-
-# target to build an object file
-course1-make-classes-files/carmain.cpp.o:
-	$(MAKE) -f CMakeFiles/carmultfiles.dir/build.make CMakeFiles/carmultfiles.dir/course1-make-classes-files/carmain.cpp.o
-.PHONY : course1-make-classes-files/carmain.cpp.o
-
-course1-make-classes-files/carmain.i: course1-make-classes-files/carmain.cpp.i
-
-.PHONY : course1-make-classes-files/carmain.i
+.PHONY : course4-threads/1_intro_and_runningthreads/thread_try0_run_multiple-threads-lambda.i
 
 # target to preprocess a source file
-course1-make-classes-files/carmain.cpp.i:
-	$(MAKE) -f CMakeFiles/carmultfiles.dir/build.make CMakeFiles/carmultfiles.dir/course1-make-classes-files/carmain.cpp.i
-.PHONY : course1-make-classes-files/carmain.cpp.i
+course4-threads/1_intro_and_runningthreads/thread_try0_run_multiple-threads-lambda.cpp.i:
+	$(MAKE) -f CMakeFiles/trymultilambda.dir/build.make CMakeFiles/trymultilambda.dir/course4-threads/1_intro_and_runningthreads/thread_try0_run_multiple-threads-lambda.cpp.i
+.PHONY : course4-threads/1_intro_and_runningthreads/thread_try0_run_multiple-threads-lambda.cpp.i
 
-course1-make-classes-files/carmain.s: course1-make-classes-files/carmain.cpp.s
+course4-threads/1_intro_and_runningthreads/thread_try0_run_multiple-threads-lambda.s: course4-threads/1_intro_and_runningthreads/thread_try0_run_multiple-threads-lambda.cpp.s
 
-.PHONY : course1-make-classes-files/carmain.s
-
-# target to generate assembly for a file
-course1-make-classes-files/carmain.cpp.s:
-	$(MAKE) -f CMakeFiles/carmultfiles.dir/build.make CMakeFiles/carmultfiles.dir/course1-make-classes-files/carmain.cpp.s
-.PHONY : course1-make-classes-files/carmain.cpp.s
-
-course1-multiple-files-project/addone.o: course1-multiple-files-project/addone.cpp.o
-
-.PHONY : course1-multiple-files-project/addone.o
-
-# target to build an object file
-course1-multiple-files-project/addone.cpp.o:
-	$(MAKE) -f CMakeFiles/incrementsum.dir/build.make CMakeFiles/incrementsum.dir/course1-multiple-files-project/addone.cpp.o
-.PHONY : course1-multiple-files-project/addone.cpp.o
-
-course1-multiple-files-project/addone.i: course1-multiple-files-project/addone.cpp.i
-
-.PHONY : course1-multiple-files-project/addone.i
-
-# target to preprocess a source file
-course1-multiple-files-project/addone.cpp.i:
-	$(MAKE) -f CMakeFiles/incrementsum.dir/build.make CMakeFiles/incrementsum.dir/course1-multiple-files-project/addone.cpp.i
-.PHONY : course1-multiple-files-project/addone.cpp.i
-
-course1-multiple-files-project/addone.s: course1-multiple-files-project/addone.cpp.s
-
-.PHONY : course1-multiple-files-project/addone.s
+.PHONY : course4-threads/1_intro_and_runningthreads/thread_try0_run_multiple-threads-lambda.s
 
 # target to generate assembly for a file
-course1-multiple-files-project/addone.cpp.s:
-	$(MAKE) -f CMakeFiles/incrementsum.dir/build.make CMakeFiles/incrementsum.dir/course1-multiple-files-project/addone.cpp.s
-.PHONY : course1-multiple-files-project/addone.cpp.s
-
-course1-multiple-files-project/incrementandsum.o: course1-multiple-files-project/incrementandsum.cpp.o
-
-.PHONY : course1-multiple-files-project/incrementandsum.o
-
-# target to build an object file
-course1-multiple-files-project/incrementandsum.cpp.o:
-	$(MAKE) -f CMakeFiles/incrementsum.dir/build.make CMakeFiles/incrementsum.dir/course1-multiple-files-project/incrementandsum.cpp.o
-.PHONY : course1-multiple-files-project/incrementandsum.cpp.o
-
-course1-multiple-files-project/incrementandsum.i: course1-multiple-files-project/incrementandsum.cpp.i
-
-.PHONY : course1-multiple-files-project/incrementandsum.i
-
-# target to preprocess a source file
-course1-multiple-files-project/incrementandsum.cpp.i:
-	$(MAKE) -f CMakeFiles/incrementsum.dir/build.make CMakeFiles/incrementsum.dir/course1-multiple-files-project/incrementandsum.cpp.i
-.PHONY : course1-multiple-files-project/incrementandsum.cpp.i
-
-course1-multiple-files-project/incrementandsum.s: course1-multiple-files-project/incrementandsum.cpp.s
-
-.PHONY : course1-multiple-files-project/incrementandsum.s
-
-# target to generate assembly for a file
-course1-multiple-files-project/incrementandsum.cpp.s:
-	$(MAKE) -f CMakeFiles/incrementsum.dir/build.make CMakeFiles/incrementsum.dir/course1-multiple-files-project/incrementandsum.cpp.s
-.PHONY : course1-multiple-files-project/incrementandsum.cpp.s
-
-course1-multiple-files-project/main.o: course1-multiple-files-project/main.cpp.o
-
-.PHONY : course1-multiple-files-project/main.o
-
-# target to build an object file
-course1-multiple-files-project/main.cpp.o:
-	$(MAKE) -f CMakeFiles/incrementsum.dir/build.make CMakeFiles/incrementsum.dir/course1-multiple-files-project/main.cpp.o
-.PHONY : course1-multiple-files-project/main.cpp.o
-
-course1-multiple-files-project/main.i: course1-multiple-files-project/main.cpp.i
-
-.PHONY : course1-multiple-files-project/main.i
-
-# target to preprocess a source file
-course1-multiple-files-project/main.cpp.i:
-	$(MAKE) -f CMakeFiles/incrementsum.dir/build.make CMakeFiles/incrementsum.dir/course1-multiple-files-project/main.cpp.i
-.PHONY : course1-multiple-files-project/main.cpp.i
-
-course1-multiple-files-project/main.s: course1-multiple-files-project/main.cpp.s
-
-.PHONY : course1-multiple-files-project/main.s
-
-# target to generate assembly for a file
-course1-multiple-files-project/main.cpp.s:
-	$(MAKE) -f CMakeFiles/incrementsum.dir/build.make CMakeFiles/incrementsum.dir/course1-multiple-files-project/main.cpp.s
-.PHONY : course1-multiple-files-project/main.cpp.s
-
-course1-unordere-map/unordere-map-try.o: course1-unordere-map/unordere-map-try.cpp.o
-
-.PHONY : course1-unordere-map/unordere-map-try.o
-
-# target to build an object file
-course1-unordere-map/unordere-map-try.cpp.o:
-	$(MAKE) -f CMakeFiles/unorderedmap.dir/build.make CMakeFiles/unorderedmap.dir/course1-unordere-map/unordere-map-try.cpp.o
-.PHONY : course1-unordere-map/unordere-map-try.cpp.o
-
-course1-unordere-map/unordere-map-try.i: course1-unordere-map/unordere-map-try.cpp.i
-
-.PHONY : course1-unordere-map/unordere-map-try.i
-
-# target to preprocess a source file
-course1-unordere-map/unordere-map-try.cpp.i:
-	$(MAKE) -f CMakeFiles/unorderedmap.dir/build.make CMakeFiles/unorderedmap.dir/course1-unordere-map/unordere-map-try.cpp.i
-.PHONY : course1-unordere-map/unordere-map-try.cpp.i
-
-course1-unordere-map/unordere-map-try.s: course1-unordere-map/unordere-map-try.cpp.s
-
-.PHONY : course1-unordere-map/unordere-map-try.s
-
-# target to generate assembly for a file
-course1-unordere-map/unordere-map-try.cpp.s:
-	$(MAKE) -f CMakeFiles/unorderedmap.dir/build.make CMakeFiles/unorderedmap.dir/course1-unordere-map/unordere-map-try.cpp.s
-.PHONY : course1-unordere-map/unordere-map-try.cpp.s
+course4-threads/1_intro_and_runningthreads/thread_try0_run_multiple-threads-lambda.cpp.s:
+	$(MAKE) -f CMakeFiles/trymultilambda.dir/build.make CMakeFiles/trymultilambda.dir/course4-threads/1_intro_and_runningthreads/thread_try0_run_multiple-threads-lambda.cpp.s
+.PHONY : course4-threads/1_intro_and_runningthreads/thread_try0_run_multiple-threads-lambda.cpp.s
 
 # Help Target
 help:
@@ -318,28 +157,11 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
+	@echo "... trymultilambda"
 	@echo "... edit_cache"
-	@echo "... carmultfiles"
-	@echo "... incrementsum"
-	@echo "... unorderedmap"
-	@echo "... course1-make-classes-files/car.o"
-	@echo "... course1-make-classes-files/car.i"
-	@echo "... course1-make-classes-files/car.s"
-	@echo "... course1-make-classes-files/carmain.o"
-	@echo "... course1-make-classes-files/carmain.i"
-	@echo "... course1-make-classes-files/carmain.s"
-	@echo "... course1-multiple-files-project/addone.o"
-	@echo "... course1-multiple-files-project/addone.i"
-	@echo "... course1-multiple-files-project/addone.s"
-	@echo "... course1-multiple-files-project/incrementandsum.o"
-	@echo "... course1-multiple-files-project/incrementandsum.i"
-	@echo "... course1-multiple-files-project/incrementandsum.s"
-	@echo "... course1-multiple-files-project/main.o"
-	@echo "... course1-multiple-files-project/main.i"
-	@echo "... course1-multiple-files-project/main.s"
-	@echo "... course1-unordere-map/unordere-map-try.o"
-	@echo "... course1-unordere-map/unordere-map-try.i"
-	@echo "... course1-unordere-map/unordere-map-try.s"
+	@echo "... course4-threads/1_intro_and_runningthreads/thread_try0_run_multiple-threads-lambda.o"
+	@echo "... course4-threads/1_intro_and_runningthreads/thread_try0_run_multiple-threads-lambda.i"
+	@echo "... course4-threads/1_intro_and_runningthreads/thread_try0_run_multiple-threads-lambda.s"
 .PHONY : help
 
 

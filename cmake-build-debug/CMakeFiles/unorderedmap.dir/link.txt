@@ -1,1 +1,0 @@
-/usr/bin/c++  -g   CMakeFiles/unorderedmap.dir/course1-unordere-map/unordere-map-try.cpp.o  -o unorderedmap 
